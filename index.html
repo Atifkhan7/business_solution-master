@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>business solution</title>
+
+    <!-- bootstrap 5 css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontawesome  CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <!-- header section start from here -->
+    <div class="header_section text-white">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-xl-6 left_content mb-4 mb-lg-0">
+                        <div class="text_content" data-aos-duration="500" data-aos="fade-up-right">
+                            <a href="#" class="brand_logo mb-5">
+                                <img src="img/GS_logo_white.png" alt="logo">
+                            </a>
+                            <h1 class="heading">
+                                Grow Your Own Business With Global Shopaholics
+                            </h1>
+                            <p class="para mt-0 text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                            <!-- <a href="#" class="btn btn-white">Apply Now</a> -->
+                        </div>
+                    </div>
+                    <div class="col-xl-6 mb-4 mb-lg-0">
+                        <div class="form shadow bg-white text-dark">
+                            <h5 class="form-title m-0 text-dark text-center">Corporate Account Application</h5>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="group_input">
+                                            <label class="text-black-50" for="name">Name<span
+                                                    class="text-danger">*</span></label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group_input">
+                                            <label class="text-black-50" for="email">Email<span
+                                                    class="text-danger">*</span></label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group_input">
+                                            <label class="text-black-50" for="SuitNo">Suite Number</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group_input">
+                                            <label class="text-black-50" for="Contact">Contact Number<span
+                                                    class="text-danger">*</span></label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group_input position-relative">
+                                            <label class="text-black-50" for="SuitNo">Country<span
+                                                    class="text-danger">*</span></label>
+                                            <select name="country" id="country" class="form-control">
+                                                <option value="1"></option>
+                                                <option value="1">Country</option>
+                                                <option value="1">Country 1</option>
+                                                <option value="1">Country 2</option>
+                                            </select>
+                                            <span class="icon position-absolute text-black-50"><i
+                                                    class="fas fa-chevron-down"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group_input">
+                                            <label class="text-black-50" for="link">Website Link</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group_input position-relative">
+                                            <label class="text-black-50" for="SuitNo">Monthly Outgoing Volume <span
+                                                    class="text-danger">*</span></label>
+                                            <select name="Volume" id="Volume" class="form-control">
+                                                <option value="1"></option>
+                                                <option value="1">Volume</option>
+                                                <option value="1">Volume 1</option>
+                                                <option value="1">Volume 2</option>
+                                            </select>
+                                            <span class="icon position-absolute text-black-50"><i
+                                                    class="fas fa-chevron-down"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group_input d-flex flex-column position-relative">
+                                            <label class="text-black-50" for="SuitNo">Select Services <span
+                                                    class="text-danger">*</span></label>
+                                            <!-- <select name="country" id="country" class="form-control">
+                                                <option value="1"></option>
+                                                <option value="1">WAREHOUSE SERVICES</option>
+                                                <option value="1">DROP SHIPPING</option>
+                                                <option value="1">BUSINESS 2 BUSINESS
+                                                </option>
+                                                <option value="1">WEB SERVICES</option>
+                                            </select> -->
+                                            <select class="js-example-basic-multiple" name="states[]"
+                                                multiple="multiple"> 
+                                                <option value="AL">WAREHOUSE SERVICES</option>
+                                                <option value="WY">DROP SHIPPING</option>
+                                                <option value="AL">BUSINESS 2 BUSINESS</option>
+                                                <option value="WY">WEB SERVICES</option>
+                                            </select>
+                                            <span class="icon position-absolute text-black-50"><i class="fas fa-chevron-down"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="group_input position-relative">
+                                            <label class="text-black-50" for="SuitNo">Other Requirements<span
+                                                class="text-danger">*</span></label>
+                                            <textarea name="req" id="req" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btns text-center mt-4">
+                                    <a href="#" class="btn btn-lg btn-purple">Apply Now</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section start end here -->
+
+    <!-- section 2 -->
+    <div class="section_2">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="text_content">
+                            <h2 class="section_title fw-bold m-0 position-relative">The best business solution <br> for you
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="box text-center">
+                                    <img src="img/solution_icons (2).png" alt="icon">
+                                    <div class="text ps-md-4">
+                                        <h2 class="head one fw-bold m-0">WAREHOUSE SERVICES</h2>
+                                        <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="box text-center">
+                                    <img src="img/solution_icons (3).png" alt="icon">
+                                    <div class="text ps-md-4">
+                                        <h2 class="head two fw-bold m-0">DROP SHIPPING</h2>
+                                        <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="box text-center">
+                                    <img src="img/solution_icons (4).png" alt="icon">
+                                    <div class="text ps-md-4">
+                                        <h2 class="head three fw-bold m-0">BUSINESS 2 BUSINESS</h2>
+                                        <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="box text-center">
+                                    <img src="img/solution_icons (1).png" alt="icon">
+                                    <div class="text ps-md-4">
+                                        <h2 class="head four fw-bold m-0">WEB SERVICES</h2>
+                                        <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- bootstrap 5 javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

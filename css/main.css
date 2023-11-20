@@ -1,0 +1,172 @@
+ /*================ Global styling start from here ===============*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200;1,300&display=swap');
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     color: #464646;
+     overflow-x: hidden;
+ }
+
+ * {
+     background-repeat: no-repeat;
+     align-items: flex-start;
+ }
+
+ p {
+     font-weight: 400;
+     font-size: 20px;
+     color: #7F7F7F;
+ }
+
+ .btn {
+     transition: .2s;
+ }
+
+ .btn:hover {
+     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+ }
+
+ select {
+     cursor: pointer;
+ }
+
+ .btn-white {
+     padding: 17px 50px;
+     font-size: 22px;
+     color: #0DA9EF;
+     background: #FFFFFF;
+     border-radius: 5px;
+ }
+
+ .section_title {
+     padding: 20px 0;
+     font-size: 32px;
+     color: #464646;
+ }
+
+ .section_title::before {
+     content: "";
+     top: 0;
+     left: 0;
+     position: absolute;
+     width: 158px;
+     height: 3px;
+     background-color: #6C6CCD;
+ }
+
+ img {
+     max-width: 100%;
+ }
+
+ /*========XX======== Global styling end here ========xX=======*/
+ .header_section {
+     padding: 110px 0;
+     /* background-color: #6C6CCD; */
+     background-image: url(../img/header_bg_2.png);
+     background-size: 100%;
+     background-position-y: -160px;
+     background-repeat: no-repeat;
+ }
+
+ .header_section .text_content {
+     max-width: 600px;
+ }
+
+ .header_section .heading {
+     font-size: 40px;
+     font-weight: 600;
+     line-height: 55px;
+     margin-bottom: 32px;
+ }
+
+ .header_section .para {
+     font-size: 22px;
+     line-height: 33px;
+     margin-bottom: 19px;
+     opacity: .9;
+ }
+ .header_section .form .form-control{
+     color: #6C6CCD;
+     box-shadow: none;
+     /* line-height: normal !important; */
+ }
+ .header_section .form textarea.form-control{
+     height: 80px;
+ }
+ .header_section .form {
+     padding: 20px;
+ }
+ .header_section .group_input{
+     margin-top: 12px;
+ }
+ .header_section .form .form-control:focus,
+ .header_section .filled{
+     border-color: #6C6CCD;
+ }
+ .header_section .select2-container{
+    width: 100% !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    border: 1px solid #ced4da;
+}
+.select2-container--default .select2-selection--multiple{
+    min-height: 38px;
+}
+ .btn-purple{
+     background-color: #6C6CCD;
+     color: #fff !important;
+     font-size: 16px
+ }
+ .header_section .form {
+     border-radius: 18px;
+ }
+ .header_section .form .icon{
+     top: 50%;
+     /* transform: translateY(-50%); */
+     right: 12px;
+     cursor: pointer;
+ }
+
+ /* Section 2 styling start from here */
+
+ .section_2{
+     margin-top: -5%;
+ }
+
+ .section_2 .box .head {
+     font-size: 18px;
+     padding: 0px 0 10px;
+     position: relative;
+ }
+
+ .section_2 .box .head::before {
+     position: absolute;
+     content: "";
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 148px;
+     height: 3px;
+ }
+
+ .section_2 .head.one::before {
+     background-color: #FA7788;
+ }
+
+ .section_2 .head.two::before {
+     background-color: #6ECAC9;
+ }
+
+ .section_2 .head.three::before {
+     background-color: #B888F8;
+ }
+
+ .section_2 .head.four::before {
+     background-color: #FF9655;
+ }
+
+ .section_2 .box .para {
+     font-size: 14px;
+     margin: 5px 0 20px;
+ }

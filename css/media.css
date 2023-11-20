@@ -1,0 +1,249 @@
+/* All of the CSS media queries are here */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1480px;
+    }
+    .header_section .heading{
+        margin-top: 60px !important;
+    }
+}
+
+/* ========styling for screen with max width 1600px============ */
+@media (max-width: 1600px) {
+    .header_section {
+        padding: 30px 0;
+    }
+
+    .header_section .heading {
+        font-size: 40px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .header_section .img_1 {
+        height: 432px;
+    }
+
+    .header_section .img_2 {
+        height: 370px;
+    }
+
+    .btn-white {
+        padding: 12px 37px;
+        font-size: 18px;
+    }
+
+    .section_title {
+        padding: 23px 0;
+        font-size: 32px;
+    }
+
+    .form_section .title {
+        font-size: 35px;
+        font-weight: bold;
+        padding: 26px 0 15px;
+    }
+
+    .form_section .btn {
+        font-size: 18px;
+        padding: 14px 60px;
+    }
+
+    .form_section .form-control,
+    textarea {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 1440px){
+    .header_section label{
+        font-size: 12px;
+    }
+    /* .header_section .form-control{
+        margin-top: 12px !important;
+    } */
+    .header_section {
+        padding: 25px 0;
+    }
+    .header_section .heading {
+        font-size: 26px;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+    .header_section .para {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .header_section {
+        background-position-y: -240px;
+    }
+    .section_2{
+        /* margin-top: -100px; */
+    }
+    .section_2 .box .para {
+        font-size: 14px;
+        margin: 10px 0 20px;
+    }
+    .section_title {
+        font-size: 24px;
+    }
+    .section_2 .box img{
+        width: 100px;
+    }
+    .section_2 .box .head {
+        font-size: 16px;
+    }
+    .header_section .form .form-control {
+        height: 30px;
+        font-size: 14px;
+    }
+    .header_section .group_input {
+        margin-top: 6px;
+    }
+    .btn-purple {
+        font-size: 13px;
+    }
+    .section_title {
+        padding: 15px 0 0;
+    }
+    .select2-container{
+        height: 30px;
+    }
+    .select2-container--default .select2-selection--multiple{
+        min-height: 30px;
+        margin-top: 4px;
+    }
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__display{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1440px){
+    .header_section {
+        background-position-y: 145%;
+    }
+}
+
+@media(max-width: 1380px){
+    .section_2{
+        margin-top: -4%;
+    }
+}
+
+/*======================Styling for screen with max width 991px==================*/
+@media (max-width: 1024px) {
+    .header_section .heading {
+        font-size: 28px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .header_section {
+        padding: 60px 0;
+    }
+    .header_section .img_2 {
+        margin-left: -69%;
+    }
+}
+
+/* =====================Styling for screen with max width 991px=================== */
+@media (max-width: 991px) {
+    .header_section {
+        padding: 100px 0;
+        background-size: 140%;
+    }
+
+    .header_section .para {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .header_section .heading {
+        font-size: 26px;
+    }
+
+    .section_2 .box .para {
+        font-size: 16px;
+        margin: 30px 0 36px;
+    }
+
+    .form_section {
+        margin-top: 133px;
+    }
+
+    .section_title br {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px){
+    .header_section{
+        background-size: 148%;
+    }
+    .section_2{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1500px){
+    .header_section {
+        background-position-y: -357px;
+    }
+}
+
+/* =================Styling for screen with max width 780px===================== */
+@media (max-width: 780px) {
+    .btn{
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+    *::before {
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+
+    .header_section {
+        padding: 100px 0;
+        background-size: 265%;
+    }
+
+    .section_title {
+        padding: 13px 0;
+        font-size: 22px;
+    }
+
+    .form_section .title {
+        font-size: 26px;
+        padding: 16px 0 15px;
+    }
+
+    .section_2 .box {
+        text-align: center;
+    }
+    .section_2{
+        margin-top: 0 !important;
+    }
+}
+
+/* ==========================Styling for screen with max width 520px========================= */
+@media (max-width: 520px) {
+    .form_section {
+        margin-top: 0;
+    }
+
+    .header_section {
+        padding: 40px 0;
+    }
+
+    .text_content {
+        text-align: center;
+    }
+
+    .header_section {
+        background-size: 330%;
+    }
+
+}
